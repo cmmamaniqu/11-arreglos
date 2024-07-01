@@ -9,13 +9,15 @@ int main(){
 	
 	float pc;
 	for(int i= 0; i<n; i++){
-		if(A[i]==0){
-			c++;
-		}
+	//	if(A[i]==0){
+		//	c++;
+		//}
 		
 		cin>>A[i];
 		s=s+A[i];
-		
+		if(A[i]==0){
+			c++;
+		}
 		pc=(c/n)*100;
 	
 
